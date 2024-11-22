@@ -1,0 +1,24 @@
+diapason: 2000
+schem: tipo.shem
+world: world
+chest-timer: 600
+spawn-timer: 3600
+spawn-message:
+  - 'Опытный тыпо заспавнился'
+  - 'Его кординаты: {x} {y} {z}'
+name: 'Опытный тыпо'
+ingot:
+  material: EXPERIENCE_BOTTLE
+  name: '&aПузырёк опыта'
+  time: 15
+  lore:
+    - ''
+    - ' §7Если вы стали обладателем этой вещицы, '
+    - ' §7то в радиусе §a12 блоков §7от'
+    - ' §7Опытного тыпо вы получаете'
+    - ' §7каждую секунду §a10 опыта. '
+get-message: '§a+10.0 опыта §f(не отходите от тыпо далеко)'
+removes-message: '§fПузырек может исчезнуть через §c{seconds} §fсек! §4Вернитесь к Опытному Тыпо'
+region-flags:
+  - build: DENY
+  - mob-spawning: DENY
