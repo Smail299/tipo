@@ -1,0 +1,8 @@
+name: FichaTipo
+version: 1.0
+main: com.example.fichatipo.FichaTipo
+api-version: 1.16
+commands:
+  tipo:
+    description: Команды для плагина FichaTipo
+    usage: /tipo <spawn|items|reload>
